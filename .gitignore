@@ -33,3 +33,4 @@ packages/
 
 /vendor
 /writable
+/public/uploads

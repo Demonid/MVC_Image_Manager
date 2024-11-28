@@ -217,6 +217,30 @@
             </div>
         <?php endif; ?>
 
+    <!-- Main Content Section -->
+    <div class="container mt-4">
+        <h1>User Dashboard</h1>
+        <p>You can download your user data in different formats below.</p>
+
+        <!-- Download Buttons -->
+        <div class="btn-container">
+            <!-- PDF Download Button -->
+            <a href="<?= site_url('download-user-data'); ?>" class="btn btn-primary">
+                Download User Data in PDF
+            </a>
+
+            <!-- Word Download Button -->
+            <a href="<?= site_url('download-user-data-word'); ?>" class="btn btn-secondary">
+                Download User Data in Word
+            </a>
+
+			<!-- Image Download Button -->
+			<a href="<?= site_url('download-user-data-image'); ?>" class="btn btn-success">
+				Download User Data in Image
+			</a>
+        </div>
+    </div>
+
 
         <!-- Footer Section -->
         <footer class="container text-center mt-5">
